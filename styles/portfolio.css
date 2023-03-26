@@ -49,7 +49,7 @@ h6 {
 .hero {
   background: var(--secondary-color);
   text-align: center;
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 
 .hero p {
@@ -132,6 +132,7 @@ h6 {
 }
 .content-container {
   margin: 30px 30 30 30;
+  padding: 60px 20px;
 }
 .content h1 {
   font-size: 64px;
@@ -224,7 +225,7 @@ footer .social-links a:hover {
   h2 {
     font-size: 44px;
   }
-  h4 {
+  h3 {
     font-size: 18px;
   }
 
