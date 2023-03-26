@@ -117,7 +117,7 @@ h6 {
   text-decoration: none;
 }
 .content {
-  padding: 160px 20px;
+  padding: 120px 20px;
 }
 .content-container {
   margin: 30px 30 30 30;
@@ -166,6 +166,34 @@ nav a {
 nav li.active a,
 nav a:hover {
   color: var(--branding-color);
+}
+
+footer {
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+footer.email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: var(--secondary-color);
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
 
 @media (max-width: 900px) {
